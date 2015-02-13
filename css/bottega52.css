@@ -486,3 +486,7 @@ body {
     display: none;
     opacity: 0;
 }
+
+#about {
+    padding: 50px;
+}
