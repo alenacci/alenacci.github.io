@@ -453,7 +453,7 @@
 		 * Google Map
 		/* ---------------------------------------------- */
 
-		var mapLocation = new google.maps.LatLng(34.031428,-118.2071542,17);
+		var mapLocation = new google.maps.LatLng(45.486255,9.244722000000024);
 
 		var $mapis = $('#map');
 
@@ -483,7 +483,7 @@
 				icon: image,
 				title: 'Rival',
 				infoWindow: {
-					content: '<p><strong>Rival</strong><br/>121 Somewhere Ave, Suite 123<br/>P: (123) 456-7890<br/>Australia</p>'
+					content: '<p><strong>Bottega52 SRL</strong><br/>TIM WCAP, Via 20134, Via Rombon, 52,<br/>20134 Milano, Italia P: (+39) 340 6890565</p>'
 				}
 			});
 
