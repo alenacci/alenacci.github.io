@@ -2,7 +2,15 @@
 <head>
 <title>My Page</title>
 </head>
-<body>
+
+<script>
+// On mouse-over, execute myFunction
+function startNow() {
+    document.getElementById("mainButton").click(); // Click on the checkbox
+}
+</script>
+
+<body onload="startNow();">
 <form name="myform" action="https://test.adyen.com/hpp/pay.shtml" method="POST">
 <div align="center">
 <input type="hidden" name="currencyCode" value="EUR">
@@ -17,7 +25,7 @@
 <input type="hidden" name="shopperLocale" value="it_IT">
 <input type="hidden" name="shopperReference" value="CL-5df62364-f607-4439-9fdb-46808a5c4e36">
 <input type="hidden" name="skinCode" value="8DbCbaKQ">
-<input type="submit" value="Submit">
+<input type="submit" value="Submit" id="mainButton">
 
 <br><br>
 </div>
